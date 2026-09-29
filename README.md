@@ -37,3 +37,6 @@ make            # needs: gcc + libgtk-3-dev (sudo apt install libgtk-3-dev)
 Each second the app samples `/proc/stat` and computes per-core busy % from
 the deltas of the jiffies counters (`busy = total − idle − iowait`). The
 overall gauge value is the average across all cores.
+
+![Example1](https://github.com/osburn/cpu_meter/blob/master/example_1.jpg "Example1")
+![Example2](https://github.com/osburn/cpu_meter/blob/master/example_2.jpg "Example2")
