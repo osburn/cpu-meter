@@ -38,5 +38,5 @@ Each second the app samples `/proc/stat` and computes per-core busy % from
 the deltas of the jiffies counters (`busy = total − idle − iowait`). The
 overall gauge value is the average across all cores.
 
-![Example1](https://github.com/osburn/cpu_meter/blob/master/example_1.jpg "Example1")
-![Example2](https://github.com/osburn/cpu_meter/blob/master/example_2.jpg "Example2")
+![Example1](https://github.com/osburn/cpu-meter/blob/main/example_1.png "Example1")
+![Example2](https://github.com/osburn/cpu-meter/blob/main/example_2.png "Example2")
